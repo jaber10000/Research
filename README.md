@@ -380,17 +380,7 @@ Healthcare Institution B ──┼──→ Federated Server
 Healthcare Institution C ──┘     Global Model
                                       ↓
                               Updated Model
-```
 
-### Repository
-
-📄 **[Read Research Paper](./Colorectal-Cancer-Federated-Learning/paper.pdf)**
-
-💻 **[View Source Code](./Colorectal-Cancer-Federated-Learning/code/)**
-
-📁 **[View Complete Project](./Colorectal-Cancer-Federated-Learning/)**
-
----
 
 # 🧪 Research Methodology
 
