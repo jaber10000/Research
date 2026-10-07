@@ -477,12 +477,12 @@ Research Documentation
 * VS Code
 * Jupyter Notebook
 
-5. 🏥 Privacy-Preserving Federated Learning Framework for Primary Pancreatic Malignancy Detection
+#5. 🏥 Privacy-Preserving Federated Learning Framework for Primary Pancreatic Malignancy Detection
 Research Area
 
 Federated Learning · Healthcare AI · Medical Data Mining · Privacy-Preserving AI · Deep Learning
 
-Overview
+###Overview
 
 This research investigates a privacy-preserving federated learning framework for primary pancreatic malignancy detection using structured clinical records from the SEER dataset. The framework enables multiple healthcare institutions to collaboratively train predictive models without sharing raw patient data. The study compares centralized and federated learning approaches while preserving patient privacy through distributed model training and FedAvg-based aggregation. The proposed system demonstrates that high diagnostic performance can be achieved while maintaining compliance with healthcare privacy requirements.
 
@@ -539,12 +539,12 @@ Technologies
 
 Python TensorFlow Keras Federated Learning Flower ANN FedAvg Pandas Scikit-Learn
 
-6. 🔬 Ensemble Deep Learning Approach for Leukemia Stage Classification from Microscopic Blood Cell Images
+#6. 🔬 Ensemble Deep Learning Approach for Leukemia Stage Classification from Microscopic Blood Cell Images
 Research Area
 
 Medical Imaging · Computer Vision · Deep Learning · Explainable AI · Cancer Diagnosis
 
-Overview
+###Overview
 
 This research proposes an ensemble deep learning framework for leukemia stage classification from microscopic peripheral blood smear images. The study combines ResNet18 and VGG16 architectures to classify four leukemia stages: Benign, Early Pre-B, Pre-B, and Pro-B. Extensive preprocessing, augmentation, class balancing, and explainable AI methods were used to improve classification performance and model interpretability. The proposed ensemble model achieved superior performance compared to multiple baseline CNN architectures.
 
