@@ -477,50 +477,52 @@ Research Documentation
 * VS Code
 * Jupyter Notebook
 
-#5. 🏥 Privacy-Preserving Federated Learning Framework for Primary Pancreatic Malignancy Detection
-Research Area
+# 🏥  5. Privacy-Preserving Federated Learning Framework for Primary Pancreatic Malignancy Detection
 
-Federated Learning · Healthcare AI · Medical Data Mining · Privacy-Preserving AI · Deep Learning
+## 🚀 Overview
 
-###Overview
+This research presents a **privacy-preserving federated learning framework for primary pancreatic malignancy detection** using structured clinical data from the **SEER dataset**. The framework enables multiple healthcare institutions to collaboratively train deep learning models without sharing sensitive patient data.
 
-This research investigates a privacy-preserving federated learning framework for primary pancreatic malignancy detection using structured clinical records from the SEER dataset. The framework enables multiple healthcare institutions to collaboratively train predictive models without sharing raw patient data. The study compares centralized and federated learning approaches while preserving patient privacy through distributed model training and FedAvg-based aggregation. The proposed system demonstrates that high diagnostic performance can be achieved while maintaining compliance with healthcare privacy requirements.
+Unlike traditional centralized learning approaches, the proposed system keeps patient records locally at participating hospitals and exchanges only model parameters through **Federated Averaging (FedAvg)** aggregation. This approach maintains patient privacy while achieving performance comparable to centralized training. 【1-06d719】
 
-Key Objectives
-Develop a privacy-preserving framework for pancreatic malignancy detection.
-Enable collaborative model training without sharing patient data.
-Compare centralized and federated learning performance.
-Preserve healthcare data confidentiality during training.
-Evaluate federated learning in distributed healthcare environments.
-Analyze model effectiveness for clinical decision support.
-Models & Techniques
-Artificial Neural Network (ANN)
-Federated Learning
-FedAvg Algorithm
-Centralized Learning
-Flower Framework
-Binary Classification
-Distributed Healthcare Training
-Privacy-Preserving AI
-Data Processing
+## 🎯 Research Objectives
 
-The research includes:
+- Develop a privacy-preserving pancreatic malignancy detection framework.
+- Enable collaborative learning across multiple healthcare institutions.
+- Preserve patient confidentiality during model training.
+- Compare centralized and federated learning performance.
+- Evaluate model effectiveness in distributed healthcare settings.
+- Support future real-world deployment in medical environments. 【1-06d719】
 
-Missing value handling
-Label encoding
-Data normalization
-Feature selection
-Class balancing
-Client-wise data partitioning
-Training/testing split
-Multi-hospital simulation using SEER data
-Federated Learning Workflow
-Plain Text
+## 🧠 Models & Techniques
+
+- Artificial Neural Network (ANN)
+- Federated Learning
+- FedAvg Aggregation
+- Flower Framework
+- Centralized Learning
+- Distributed Healthcare AI
+- Binary Classification
+- Privacy-Preserving Machine Learning 【1-06d719】
+
+## ⚙️ Data Processing
+
+- Missing Value Handling
+- Label Encoding
+- Feature Selection
+- Data Normalization
+- Class Balancing
+- SEER Clinical Data Processing
+- Client-wise Data Distribution
+- Train/Test Splitting 【1-06d719】
+
+## 🔄 Federated Learning Workflow
+
 Global Model
 ↓
 Distribute to Clients
 ↓
-Local ANN Training
+Local Model Training
 ↓
 Model Weight Updates
 ↓
@@ -529,82 +531,92 @@ FedAvg Aggregation
 Updated Global Model
 ↓
 Repeat
-Evaluation Metrics
-Accuracy
-Precision
-Recall
-Confusion Matrix
-Loss Analysis
-Technologies
 
-Python TensorFlow Keras Federated Learning Flower ANN FedAvg Pandas Scikit-Learn
+## 📊 Evaluation Metrics
 
-#6. 🔬 Ensemble Deep Learning Approach for Leukemia Stage Classification from Microscopic Blood Cell Images
-Research Area
+- Accuracy
+- Precision
+- Recall
+- Confusion Matrix
+- Loss Analysis 【1-06d719】
 
-Medical Imaging · Computer Vision · Deep Learning · Explainable AI · Cancer Diagnosis
+## 🛠 Technologies
 
-###Overview
+`Python` `TensorFlow` `Keras` `Federated Learning` `Flower` `ANN` `FedAvg` `Scikit-Learn`
 
-This research proposes an ensemble deep learning framework for leukemia stage classification from microscopic peripheral blood smear images. The study combines ResNet18 and VGG16 architectures to classify four leukemia stages: Benign, Early Pre-B, Pre-B, and Pro-B. Extensive preprocessing, augmentation, class balancing, and explainable AI methods were used to improve classification performance and model interpretability. The proposed ensemble model achieved superior performance compared to multiple baseline CNN architectures.
+---
 
-Key Objectives
-Develop an ensemble deep learning framework for leukemia staging.
-Classify four leukemia stages from PBS images.
-Improve classification accuracy using model fusion.
-Address class imbalance through augmentation and oversampling.
-Enhance model interpretability through explainable AI.
-Compare ensemble performance with baseline CNN models.
-Models & Techniques
-ResNet18
-VGG16
-Ensemble Learning
-Soft Voting
-Guided Backpropagation
-Data Augmentation
-Weighted Random Sampling
-CNN-Based Classification
-Data Processing
+# 🔬  6. Ensemble Deep Learning Approach for Leukemia Stage Classification
 
-The research includes:
+## 🚀 Overview
 
-Image resizing (224×224)
-Image normalization
-Data augmentation
-Class balancing
-Oversampling
-WeightedRandomSampler
-Noise reduction
-Training/Validation/Test splitting
-Ensemble Learning Workflow
-Plain Text
+This research proposes an **ensemble deep learning framework for leukemia stage classification** from microscopic **Peripheral Blood Smear (PBS)** images. The system combines **ResNet18** and **VGG16** architectures through an ensemble learning strategy to classify four leukemia stages:
+
+- Benign
+- Early Pre-B
+- Pre-B
+- Pro-B
+
+The framework incorporates advanced preprocessing, augmentation, class balancing, and explainable AI techniques to improve both predictive performance and model interpretability. The proposed ensemble model achieved superior results compared to multiple state-of-the-art CNN architectures. 【2-70d955】
+
+## 🎯 Research Objectives
+
+- Develop an ensemble deep learning framework for leukemia staging.
+- Classify four leukemia stages from PBS images.
+- Improve performance through model fusion.
+- Reduce class imbalance effects.
+- Enhance model interpretability using Explainable AI.
+- Compare performance against modern CNN baselines. 【2-70d955】
+
+## 🧠 Models & Techniques
+
+- ResNet18
+- VGG16
+- Ensemble Learning
+- Soft Voting
+- Guided Backpropagation
+- Data Augmentation
+- Weighted Random Sampling
+- CNN-Based Medical Image Classification 【2-70d955】
+
+## ⚙️ Data Processing
+
+- Image Resizing (224×224)
+- Image Normalization
+- Data Augmentation
+- Class Balancing
+- Oversampling
+- WeightedRandomSampler
+- Noise Reduction
+- Train / Validation / Test Splitting 【2-70d955】
+
+## 🔄 Ensemble Workflow
+
 PBS Images
 ↓
 Preprocessing
 ↓
-ResNet18
-↓
-Feature Extraction
+ResNet18 Feature Extraction
 ↓
 Soft Voting Fusion
 ↓
 Final Prediction
 ↑
-VGG16
-↓
-Feature Extraction
-Evaluation Metrics
-Accuracy
-Precision
-Recall
-F1-Score
-Confusion Matrix
-Classification Report
-Explainability
+VGG16 Feature Extraction
 
-The framework incorporates Guided Backpropagation to generate saliency maps, helping visualize the cellular regions most influential for stage prediction and improving model interpretability.
+## 📊 Evaluation Metrics
 
-Technologies
+- Accuracy
+- Precision
+- Recall
+- F1-Score
+- Confusion Matrix
+- Classification Report 【2-70d955】
 
-Python PyTorch Deep Learning ResNet18 VGG16 Ensemble Learning Computer Vision Guided Backpropagation
+## 🔍 Explainable AI
 
+The framework integrates **Guided Backpropagation (GBP)** to generate saliency maps highlighting the most influential cellular regions used during prediction. This helps improve model transparency and supports clinical interpretability. 【2-70d955】
+
+## 🛠 Technologies
+
+`Python` `PyTorch` `Deep Learning` `ResNet18` `VGG16` `Ensemble Learning` `Computer Vision` `Guided Backpropagation`
